@@ -2,18 +2,14 @@ MFMS
 Project Title: Municipal Financial Management System (MFMS)
 Course: PAP521S– Programming in Practice
 Group Members
-1. Amaufufu Diogenus
-2. Esco T Haukena
-3. Jurgen Narseb
-4. Samuel S
-224082493
-223069760
-225106930
-224034308
-5. Osama Bin Laden Shooya 226039625
-6. Lazarus Thomas
+1. Amaufufu Diogenus 224082493
+2. Esco T Haukena 223069760
+3. Jurgen Narseb 225106930
+4. Osama Bin Laden Shooya 226039625
+5. Ester Amunime 221117385
 Project Description
-224019589
+
+
 The Municipal Financial Management System is a menu-driven C program developed to help a municipality
 manage basic financial and administrative information. The system provides modules for managing employees,
 budgets, suppliers and municipal assets. It also allows users to search for information and generate basic reports.
@@ -25,23 +21,23 @@ System Features
 • Search for an employee.
 • Calculate employee salary information.
 • Display relevant employee details.
-2. Budget Management •
-Enter departmental budgets.
+2. Budget Management
+    •Enter departmental budgets.
 • Record expenditure.
 • Calculate the remaining budget.
 • Check whether expenditure is within the allocated budget.
 • Identify departments that have exceeded their budgets.
-3. Supplier Management
+4. Supplier Management
 • Add supplier information.
 • Display registered suppliers.
 • Search for suppliers.
 • View supplier details such as name, email, telephone number and location.
-4. Asset Management •
-Register municipal assets.
+5. Asset Management
+• Register municipal assets.
 • Display asset information.
 • Search for assets.
 • Store information such as asset ID, name, type, value, department and condition.
-5. Reports
+7. Reports
 The system provides employee, budget, supplier and asset reports.
 Programming Concepts Used
 • Variables and data types
@@ -78,7 +74,6 @@ Diogenus .A
 Asset Management
 Esco .T.H
 Reports + documentation
-Samuel .S
 Functions, Integration and Data Validation
 Development Environment
 • Programming Language: C
