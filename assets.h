@@ -1,4 +1,4 @@
-/* assets.h - Asset Management module */
+
 #ifndef ASSETS_H
 #define ASSETS_H
 
