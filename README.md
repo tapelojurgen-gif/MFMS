@@ -86,7 +86,7 @@ Where the string functions are used:
 | Group Member | Responsibility |
 |--------------|----------------|
 | Osama Bin Laden Shooya | Budget Management (`budget.c/.h`) |
-| Jurgen Narseb | Supplier Management (`suppliers.c/.h`), testing, documentation, GitHub coordination |
+| Jurgen Narseb | Supplier Management (`suppliers.c/.h`), testing, GitHub coordination |
 | Amaufufu Diogenus | Asset Management (`assets.c/.h`), functions, integration and data validation (`utils.c/.h`) |
 | Esco T. Haukena / Ester Amunime | Reports (`reports.c/.h`) Employee Management (`employees.c/.h`)and documentation |
 
