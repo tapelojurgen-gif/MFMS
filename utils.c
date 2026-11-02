@@ -1,6 +1,4 @@
-/* utils.c - shared input/validation helpers
- * Owner: Diogenus A. (Functions, Integration, Data Validation)
- */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -11,10 +9,7 @@
 
 #define SCRATCH_LEN 256
 
-/* Read one line with fgets (never overflows). Strips the newline.
- * Returns 1 if the whole line fitted, 0 if it was too long (rest is discarded).
- * If input ends (Ctrl+Z / Ctrl+D / piped file finished) the program exits cleanly,
- * so an input loop can never spin forever. */
+
 int readLine(char *buffer, size_t size)
 {
     size_t length;
@@ -87,8 +82,7 @@ int containsIgnoreCase(const char *text, const char *part)
     return strstr(lowerText, lowerPart) != NULL;
 }
 
-/* Join first + separator + second into dest using strcpy/strcat.
- * Returns 1 on success, 0 (dest left empty) if the result would not fit. */
+
 int buildLabel(char *dest, size_t size, const char *first,
                const char *separator, const char *second)
 {
@@ -102,8 +96,7 @@ int buildLabel(char *dest, size_t size, const char *first,
     return 1;
 }
 
-/* A whole number between min and max. Letters, blanks and out-of-range
- * values are rejected with a message and the user is asked again. */
+
 int promptInt(const char *prompt, int min, int max)
 {
     char line[64];
@@ -135,7 +128,7 @@ int promptInt(const char *prompt, int min, int max)
     }
 }
 
-/* A non-negative amount of money (salary, budget, value, expenditure). */
+
 double promptMoney(const char *prompt)
 {
     char line[64];
@@ -195,7 +188,7 @@ void promptText(const char *prompt, char *dest, size_t size)
     }
 }
 
-/* Very simple email check: something@something.something, no spaces. */
+
 int isValidEmail(const char *email)
 {
     const char *at = strchr(email, '@');
@@ -214,7 +207,7 @@ int isValidEmail(const char *email)
     return 1;
 }
 
-/* Phone numbers: digits, spaces, + and -, with 7 to 15 digits. */
+
 int isValidPhone(const char *phone)
 {
     size_t i;
