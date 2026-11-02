@@ -1,7 +1,4 @@
-/* reports.c - Reports module
- * Owner: Esco T.H. (Reports) - confirm with Ester A., who committed the first version
- * Reads data from the other modules only through their getter functions.
- */
+
 #include <stdio.h>
 #include <string.h>
 #include "utils.h"
