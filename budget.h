@@ -1,4 +1,4 @@
-/* budget.h - Budget Management module */
+
 #ifndef BUDGET_H
 #define BUDGET_H
 
