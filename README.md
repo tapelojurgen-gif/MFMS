@@ -11,7 +11,6 @@
 | Esco T. Haukena | 223069760 |
 | Jurgen Narseb | 225106930 |
 | Osama Bin Laden Shooya | 226039625 |
-| Lazarus Thomas | 224019589 |
 | Ester Amunime | 221117385 |
 
 ## Project Description
@@ -86,11 +85,10 @@ Where the string functions are used:
 <!-- CONFIRM: reports were committed by Ester Amunime; README previously credited Esco T. Haukena -->
 | Group Member | Responsibility |
 |--------------|----------------|
-| Lazarus Thomas | Employee Management (`employees.c/.h`) |
 | Osama Bin Laden Shooya | Budget Management (`budget.c/.h`) |
 | Jurgen Narseb | Supplier Management (`suppliers.c/.h`), testing, documentation, GitHub coordination |
 | Amaufufu Diogenus | Asset Management (`assets.c/.h`), functions, integration and data validation (`utils.c/.h`) |
-| Esco T. Haukena / Ester Amunime | Reports (`reports.c/.h`) and documentation |
+| Esco T. Haukena / Ester Amunime | Reports (`reports.c/.h`) Employee Management (`employees.c/.h`)and documentation |
 
 ## GitHub
 Repository: https://github.com/tapelojurgen-gif/MFMS
