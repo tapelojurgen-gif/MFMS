@@ -1,6 +1,4 @@
-/* budget.c - Budget Management module
- * Owner: Osama B.L.S. (Budget Management)
- */
+
 #include <stdio.h>
 #include <string.h>
 #include "budget.h"
