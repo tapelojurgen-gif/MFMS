@@ -1,6 +1,4 @@
-/* employees.c - Employee Management module
- * Owner: Lazarus T. (Employee Management)
- */
+
 #include <stdio.h>
 #include <string.h>
 #include "employees.h"
