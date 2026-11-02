@@ -1,4 +1,4 @@
-/* employees.h - Employee Management module */
+
 #ifndef EMPLOYEES_H
 #define EMPLOYEES_H
 
