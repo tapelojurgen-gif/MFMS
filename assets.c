@@ -1,6 +1,4 @@
-/* assets.c - Asset Management module
- * Owner: Diogenus A. (Asset Management)
- */
+
 #include <stdio.h>
 #include <string.h>
 #include "assets.h"
